@@ -1,0 +1,6 @@
+{
+  "name": "法式甜點疊疊樂 · Pâtisserie Stack",
+  "description": "歐式法式甜點屋風格的 2D 蛋糕疊疊樂手機遊戲，抓準擺鐘時機落餅、裁切對齊、累積連擊與完美回寬。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
