@@ -4,6 +4,7 @@
  */
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import ambientBackdropImg from './assets/images/patisserie_ambient_backdrop_1794663946043.jpg';
 import { GameHud } from './components/GameHud';
 import { GameOverOverlay, PauseOverlay, TitleOverlay } from './components/GameModals';
 import { patisserieAudio } from './game/audio';
@@ -11,7 +12,7 @@ import { PatisserieEngine } from './game/engine';
 import { getFlavorForIndex } from './game/flavors';
 import { HudSnapshot } from './game/types';
 
-const AMBIENT_BACKDROP_SRC = '/src/assets/images/patisserie_ambient_backdrop_1794663946043.jpg';
+const AMBIENT_BACKDROP_SRC = ambientBackdropImg;
 
 const INITIAL_HUD: HudSnapshot = {
   gameState: 'TITLE_MENU',

@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Play, RotateCcw, Home, Volume2, VolumeX } from 'lucide-react';
+import titleKeyArtImg from '../assets/images/patisserie_title_keyart_1794663946528.jpg';
 import { HudSnapshot } from '../game/types';
 import { PatisserieTitleLockup } from './PatisserieTitleLockup';
 
-const TITLE_ART_SRC = '/src/assets/images/patisserie_title_keyart_1794663946528.jpg';
+const TITLE_ART_SRC = titleKeyArtImg;
 
 interface TitleOverlayProps {
   bestScore: number;
